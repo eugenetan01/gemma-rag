@@ -9,7 +9,7 @@ combined_information = f"Query: {query}\nContinue to answer the query by using t
 print(combined_information)
 
 
-tokenizer = AutoTokenizer.from_pretrained("google/gemma-2b-it")
+tokenizer = AutoTokenizer.from_pretrained("google/gemma-2b-it")  # to add hf token
 # CPU Enabled uncomment below 👇🏽
 model = AutoModelForCausalLM.from_pretrained("google/gemma-2b-it")
 # GPU Enabled use below 👇🏽
