@@ -6,3 +6,5 @@ __2. Run the encoder.py__
 
 __3. Run the rag.py__
 - Run the query to LLM on gemma with vector search on mongo
+
+run colab with t4 - gpu 
